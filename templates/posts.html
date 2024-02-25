@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div align="center">
+        <div class="border">
+            <div class="header">
+                <h1 class="word">Social Media</h1>
+            </div>
+
+            {% if username %}
+                <!-- Display the hyperlink to create a new post if the user is logged in -->
+                <p><a href="{{ url_for('new_post') }}">Create a new post</a></p>
+                <!-- Display the logout button -->
+                <form method="GET" action="{{ url_for('logout') }}">
+                    <button type="submit">Logout</button>
+                </form>
+            {% endif %}
+
+            {% for post in posts %}
+                <div class="post">
+                    <p><strong>{{ post[0] }}</strong> - {{ post[2] }}</p>
+                    <p>{{ post[1] }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
