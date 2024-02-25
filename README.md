@@ -10,7 +10,7 @@ Features
 - Posting and viewing of user-generated content
   
 ![Screenshot 2024-02-25 135757](https://github.com/Yashvitha04/Social-Media/assets/143237503/8ec8e0c8-1955-4806-b1f9-6f76db1104cf)
-
+![Screenshot 2024-02-25 173529](https://github.com/Yashvitha04/Social-Media/assets/143237503/9e5a98e6-f9ef-4395-8eec-fdc926c097c4)
 ![Screenshot 2024-02-25 140432](https://github.com/Yashvitha04/Social-Media/assets/143237503/99364a15-dfe3-4cec-be76-27a11a021294)
 
 - Simple and intuitive UI
